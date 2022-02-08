@@ -1,0 +1,266 @@
+[
+  {
+    "model": "articles.actor",
+    "pk": 1,
+    "fields": {
+      "name": "정다은",
+      "intro": "혼자 사는 사람들을 통해 처음 성인연기를 하였으며, 권상우 이정현 주연의 두 번 할까요에서 여고생 단역을 맡았다.",
+      "date_of_birth": "2001",
+      "filmography": "혼자 사는 사람들, 비밀의 정원",
+      "profile_image": "https://drive.google.com/uc?id=1tf7W-Kb9p7eAfRbPx1fVCRrpPvyJSueR"
+    }
+  },
+  {
+    "model": "articles.actor",
+    "pk": 2,
+    "fields": {
+      "name": "서현우",
+      "intro": "한국 예술 종합학교 연기학을 전공하였고 2010년 뮤지컬 '내 마음의 풍금'으로 데뷔하였다. 2010년 오프대학로 페스티벌 연기상을 수상하였다.",
+      "date_of_birth": "1983-11-20",
+      "filmography": "유체이탈자, 혼자 사는 사람들, 그녀를 지우는 시간, 국도극장",
+      "profile_image": "https://drive.google.com/uc?id=1Kucxp6-QMgkyOLf_a2904DoCM48U62vg"
+    }
+  },
+  {
+    "model": "articles.actor",
+    "pk": 3,
+    "fields": {
+      "name": "손수현",
+      "intro": "데뷔 전부터 인터넷 쇼핑몰에서 피팅 모델로 활동하여 유명세를 탔으며 2013년 버스커 버스크의 뮤비 출연 계기로 화제가 되었다.",
+      "date_of_birth": "1988-02-29",
+      "filmography": "선풍기를 고치는 방법, 프론트맨, 프리랜서",
+      "profile_image": "https://drive.google.com/uc?id=1jym2ufiCtPxgbqR5Ff57GVvm5KqatxM2"
+    }
+  },
+  {
+    "model": "articles.actor",
+    "pk": 4,
+    "fields": {
+      "name": "이상희",
+      "intro": "대학 진학 후 영화가 좋았고, 영화를 전공하는 친구를 보면서 막연히 영화에 대한 꿈을 키웠다고 한다. 본래 전공인 간호학과를 졸업하고 간호사로 일했으나, 나중에 간호사를 그만두고 후에 배우로 데뷔했다.",
+      "date_of_birth": "1983-10-08",
+      "filmography": "돛대, 데시벨, 정가네 목장",
+      "profile_image": "https://drive.google.com/uc?id=1pf9Gw6khYV_fo0ZrdqzgFKCFVfTZGfcc"
+    }
+  },
+  {
+    "model": "articles.actor",
+    "pk": 5,
+    "fields": {
+      "name": "강진아",
+      "intro": "건국대 영화과를 졸업하였으며 제20회 부산영화평론가협회상 신인연기자상을 수상하였다.",
+      "date_of_birth": "-",
+      "filmography": "순영, 한비, 아이들은 즐겁다, 빛과 철",
+      "profile_image": "https://drive.google.com/uc?id=1WocWkAiZy3iRiPgI0WRIjLtWxh3_kHdK"
+    }
+  },
+  {
+    "model": "articles.actor",
+    "pk": 6,
+    "fields": {
+      "name": "권잎새",
+      "intro": "영화배우이자 뮤지컬 배우이다.",
+      "date_of_birth": "1995",
+      "filmography": "낙인, 연습생, 할머니의 외출",
+      "profile_image": "https://drive.google.com/uc?id=1SaJznMO-MwiVO9XCtNIpjogiwBL6JOtC"
+    }
+  },
+  {
+    "model": "articles.actor",
+    "pk": 7,
+    "fields": {
+      "name": "류기산",
+      "intro": "한국예술종합학교를 졸업하였으며 2014년 영화 족구왕으로 데뷔했다.",
+      "date_of_birth": "1987-10-07",
+      "filmography": "샘, 게이트, 불한당",
+      "profile_image": "https://drive.google.com/uc?id=1yv-jMR-CB304MBtuUaQXBGqcBTkMgj9z"
+    }
+  },
+  {
+    "model": "articles.actor",
+    "pk": 8,
+    "fields": {
+      "name": "이가섭",
+      "intro": "세종대학교 영화예술학과를 졸업하였으며 2011년 영화 복무태만으로 데뷔했다.",
+      "date_of_birth": "1991-12-28",
+      "filmography": "복무태만, 오랜만이다, 노량진, 니나 내나",
+      "profile_image": "https://drive.google.com/uc?id=1PYqhv7xKnwZXxmaohQLcJedPL8XVlSHJ"
+    }
+  },
+  {
+    "model": "articles.actor",
+    "pk": 9,
+    "fields": {
+      "name": "이종원",
+      "intro": "모델 출신의 배우로 2018년 웹드라마 팩 투더 퓨처로 데뷔했다.",
+      "date_of_birth": "1994-12-31",
+      "filmography": "반성, 니나 내나, 인유어드림",
+      "profile_image": "https://drive.google.com/uc?id=1E6i7BzZLB7tJS2IVHvuBV-SUuTKZtou3"
+    }
+  },
+  {
+    "model": "articles.actor",
+    "pk": 10,
+    "fields": {
+      "name": "한별",
+      "intro": "경기대학교 청소년학과를 졸업하였으며 가수겸 배우로 활동하고있다.",
+      "date_of_birth": "-",
+      "filmography": "박화영, 변산, 니나 내나",
+      "profile_image": "https://drive.google.com/uc?id=1XXfKA7x15rL9JcBGYlCFsGh44VXb3-mB"
+    } 
+  },
+  {
+    "model": "articles.actor",
+    "pk": 11,
+    "fields": {
+      "name": "양희우",
+      "intro": "수원대학교 체육학과를 졸업하고 MBC 드라마 이산의 단역으로 연기활동을 시작하였다.",
+      "date_of_birth": "1984-03-20",
+      "filmography": "서복, 타인은 지옥이다, 우상",
+      "profile_image": "https://drive.google.com/uc?id=1-WprpTZ0qFESEBWaLOCCDZvO_rl0zvew"
+    } 
+  },
+  {
+    "model": "articles.actor",
+    "pk": 12,
+    "fields": {
+      "name": "조성희",
+      "intro": "청주대학교 대학원 영화언론콘텐츠학과 박사이며 영화배우로 활동하고 있다. 또한 2020년 제 15회 대한민국 대학영화제 심사위원을 하였다.",
+      "date_of_birth": "1991",
+      "filmography": "전주에서 길을 묻다, 구원, 오케이! 마담",
+      "profile_image": "https://drive.google.com/uc?id=1A5dlRlaczm1Z0AC56sLuy2DTYLOQz6qi"
+    } 
+  },
+  {
+    "model": "articles.actor",
+    "pk": 13,
+    "fields": {
+      "name": "최수경",
+      "intro": "서울예술대학교 연기전공 졸업하여 2017년 뮤지컬 '프리파라'로 데뷔하였으며 제 14회 대한민국 대학영화제 홍보대사 활동을 하였다.",
+      "date_of_birth": "1995",
+      "filmography": "전주에서 길을 묻다, 여배우들의 동행",
+      "profile_image": "https://drive.google.com/uc?id=1U8vG8jJzc75GyjEDkUTDbLGhU0dYPBNj"
+    } 
+  },
+  {
+    "model": "articles.actor",
+    "pk": 14,
+    "fields": {
+      "name": "이원준",
+      "intro": "세종대학교 영화예술학과를 졸업하였다.",
+      "date_of_birth": "1987-06-29",
+      "filmography": "지금 이순간, 너의 여자친구, 뺑반",
+      "profile_image": "https://drive.google.com/uc?id=1WFemLuBLnN0oBXWdjN1XBFy7y6OwyXSg"
+    } 
+  },
+  {
+    "model": "articles.actor",
+    "pk": 15,
+    "fields": {
+      "name": "류혜린",
+      "intro": "경성대학교 연극영화과를 졸업하고 2009년 연극 '도살장의 시간'으로 데뷔하였다.",
+      "date_of_birth": "1984-10-24",
+      "filmography": "오케이! 마담, 너의 여자친구, 골든 슬럼버",
+      "profile_image": "https://drive.google.com/uc?id=1e0lf32bhn32IIt3wP1fcMwWreiv3JCSP"
+    } 
+  },
+  {
+    "model": "articles.actor",
+    "pk": 16,
+    "fields": {
+      "name": "정주연",
+      "intro": "건국대학교 영화과를 졸업하였으며 2009년 에픽하이의 뮤비를 출연이후 드라마와 영화에서 다양하게 활동하고 있다.",
+      "date_of_birth": "1989-03-13",
+      "filmography": "스물, 차이나 블루, 마음이2",
+      "profile_image": "https://drive.google.com/uc?id=1GSxdueX1a9for5EUmR9cfXsykQRFccm-"
+    } 
+  },
+  {
+    "model": "articles.actor",
+    "pk": 17,
+    "fields": {
+      "name": "최정운",
+      "intro": "중앙대학교 연극학과에 재학중이며 2021년 제 57회 영화부문 신인 연기상을 수상하였다.",
+      "date_of_birth": "2001-07-22",
+      "filmography": "남매의 여름밤, 빛나는 물체 따라가기",
+      "profile_image": "https://drive.google.com/uc?id=1sx4FyOTBt0vr3zYlM3t82611wOB3wJe6"
+    } 
+  },
+  {
+    "model": "articles.actor",
+    "pk": 18,
+    "fields": {
+      "name": "강길우",
+      "intro": "중앙대학교 연극영화학부를 졸업하였으며 2018년 제 5회 가톨릭영화제 스텔라상을 수상하였다.",
+      "date_of_birth": "1986-11-10",
+      "filmography": "식물카페 온정, 더스트맨, 정말 먼 곳, 아이",
+      "profile_image": "https://drive.google.com/uc?id=1LjvMGI6cJ3nWtP3ht-z7_xovaBANL4M5"
+    } 
+  },
+  {
+    "model": "articles.actor",
+    "pk": 19,
+    "fields": {
+      "name": "기도영",
+      "intro": "2017년 영화 '메소드'로 데뷔하였다.",
+      "date_of_birth": "1991-10-05",
+      "filmography": "정말 먼 곳, 버티고, 우리 지금 만나",
+      "profile_image": "https://drive.google.com/uc?id=1QkQrGQuGJlGCvoeGMXAyOPoD4R9nu-O2"
+    } 
+  },
+  {
+    "model": "articles.actor",
+    "pk": 20,
+    "fields": {
+      "name": "김정연",
+      "intro": "국민대학교 연극학과에 재학 중이며 2008년 영화 미인도로 데뷔하였다.",
+      "date_of_birth": "2001-01-17",
+      "filmography": "휴가, 증인, 암수살인",
+      "profile_image": "https://drive.google.com/uc?id=1454CmDXh3ldEESJ9rR1rXCa-qcORlKio"
+    } 
+  },
+  {
+    "model": "articles.actor",
+    "pk": 21,
+    "fields": {
+      "name": "임성재",
+      "intro": "2017년 영화 '변산'으로 데뷔하였다.",
+      "date_of_birth": "1987-01-18",
+      "filmography": "자산어보, 내가 죽던 날, 다만 악에서 구하소서",
+      "profile_image": "https://drive.google.com/uc?id=1ElV_ifqKn3Jm5I5G1iGV0YeALR0qfMvp"
+    } 
+  },
+  {
+    "model": "articles.actor",
+    "pk": 22,
+    "fields": {
+      "name": "강태우",
+      "intro": "중앙대학교 첨단영상대학원을 졸업하였으며 2017년 영화 '밤의 해변에서 혼자'로 데뷔하였다.",
+      "date_of_birth": "1989",
+      "filmography": "국도극장, 밤의 해변에서 혼자",
+      "profile_image": "https://drive.google.com/uc?id=1vqgxcBo1uigh1Cf_JNnU_B1IViH5GIn_"
+    } 
+  },
+  {
+    "model": "articles.actor",
+    "pk": 23,
+    "fields": {
+      "name": "하준",
+      "intro": "서울예술대학 연극과를 졸업하였으며 2020년 제24회 부천 국제 판타스틱 영화제 코리아 판타스틱 장편 부문 남우주연상을 수상하였다.",
+      "date_of_birth": "1987-04-03",
+      "filmography": "잔칫날, 리메인",
+      "profile_image": "https://drive.google.com/uc?id=1lvXG3kkG6rkVx1TlmZ85YsHq_yQQpT_y"
+    } 
+  },
+  {
+    "model": "articles.actor",
+    "pk": 24,
+    "fields": {
+      "name": "김진영",
+      "intro": "2018년 영화 '얘들아, 너희가 기쁜게 아니야'로 데뷔하였다.",
+      "date_of_birth": "2003-02-13",
+      "filmography": "어제 일은 모두 괜찮아, 니나 내나",
+      "profile_image": "https://drive.google.com/uc?id=1N94IG7wYO0tfNtydx3XNnR0qtE3K1AaV"
+    } 
+  }
+]
