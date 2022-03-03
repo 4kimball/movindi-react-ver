@@ -1,5 +1,7 @@
 import { FC } from 'react';
 import { Box, Card, CardContent, Typography } from '@mui/material';
+
+import LoginForm from './LoginForm';
 const Login: FC = () => {
   return (
     <Box
@@ -12,9 +14,7 @@ const Login: FC = () => {
     >
       <Card sx={{ width: 600 }}>
         <CardContent sx={{ padding: 4 }}>
-          <Typography align="center" variant="h3" sx={{ marginBottom: 5 }}>
-            Welcome To Movindi
-          </Typography>
+          <LoginForm />
         </CardContent>
       </Card>
     </Box>

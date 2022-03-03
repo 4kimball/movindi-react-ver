@@ -1,5 +1,5 @@
 import axios, { AxiosRequestConfig } from 'axios';
-
+const BASE_URL = 'http://127.0.0.1:8000/';
 export const request = (
   method: 'get' | 'post' | 'put' | 'delete',
   url: string,
@@ -38,14 +38,14 @@ export const request = (
 
   switch (method) {
     case 'get':
-      return axios.get(url, config);
+      return axios.get(BASE_URL + url, config);
     case 'post':
-      return axios.post(url, body, config);
+      return axios.post(BASE_URL + url, body, config);
     case 'put':
-      return axios.put(url, body, config);
+      return axios.put(BASE_URL + url, body, config);
     case 'delete':
-      return axios.delete(url, config);
+      return axios.delete(BASE_URL + url, config);
     default:
-      return axios.get(url, config);
+      return axios.get(BASE_URL + url, config);
   }
 };
