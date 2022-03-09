@@ -1,19 +1,28 @@
-import { createSlice, PayloadAction } from '@reduxjs/toolkit';
-import jwt_decode from 'jwt-decode';
+import { createSlice } from '@reduxjs/toolkit';
 
 interface UserState {
   isLoggedIn: boolean;
-  username: string;
+  user: User;
 }
 
 const DEFAULT_STATE: UserState = {
   isLoggedIn: false,
-  username: '',
+  user: {
+    username: '',
+    pk: null,
+    sns_id: '',
+    sns_type: '',
+  },
 };
 
 const initialState: UserState = {
   isLoggedIn: false,
-  username: '',
+  user: {
+    username: '',
+    pk: null,
+    sns_id: '',
+    sns_type: '',
+  },
 };
 
 const userSlice = createSlice({

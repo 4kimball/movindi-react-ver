@@ -12,7 +12,9 @@ const Layout: FC = () => {
   const { isLoggedIn } = useSelector((state: RootState) => state.user);
   const navigate = useNavigate();
   const pageTitle = usePageTitle(pathname);
-
+  useEffect(() => {
+    if (isLoggedIn === false) navigate('/login');
+  }, [isLoggedIn]);
   return (
     <Box
       sx={{

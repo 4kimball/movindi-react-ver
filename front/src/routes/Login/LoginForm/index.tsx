@@ -18,17 +18,17 @@ const INPUT_OPTION = {
   },
 };
 const onSubmit: SubmitHandler<{
-  username: string | null;
-  password: string | null;
+  username: string;
+  password: string;
 }> = async (data) => {
   const { username, password } = data;
-  login(username, password);
+  const token = login(username, password);
+  console.log(token);
 };
 const LoginForm: FC = () => {
   const {
     register,
     handleSubmit,
-    watch,
     formState: { errors },
   } = useForm();
   return (
