@@ -2,26 +2,36 @@ import { createSlice } from '@reduxjs/toolkit';
 
 interface UserState {
   isLoggedIn: boolean;
-  user: User;
+  userInfo: User;
 }
 
 const DEFAULT_STATE: UserState = {
   isLoggedIn: false,
-  user: {
+  userInfo: {
     username: '',
     pk: null,
     sns_id: '',
     sns_type: '',
+    image: '',
+    like_actors: [],
+    like_movies: [],
+    review_set: [],
+    scrap_review: [],
   },
 };
 
 const initialState: UserState = {
   isLoggedIn: false,
-  user: {
+  userInfo: {
     username: '',
     pk: null,
     sns_id: '',
     sns_type: '',
+    image: '',
+    like_actors: [],
+    like_movies: [],
+    review_set: [],
+    scrap_review: [],
   },
 };
 
@@ -29,10 +39,16 @@ const userSlice = createSlice({
   name: 'user',
   initialState,
   reducers: {
-    login: (_, action) => {
+    setLoggedIn: (state, action) => {
       return {
-        isLoggedIn: true,
-        ...action.payload,
+        ...state,
+        isLoggedIn: action.payload,
+      };
+    },
+    setUserInfo: (state, action) => {
+      return {
+        ...state,
+        userInfo: action.payload,
       };
     },
     logout: () => {
@@ -41,5 +57,5 @@ const userSlice = createSlice({
   },
 });
 
-export const { login, logout } = userSlice.actions;
+export const { setLoggedIn, setUserInfo, logout } = userSlice.actions;
 export default userSlice.reducer;

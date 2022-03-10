@@ -7,6 +7,10 @@ export const login = async (username: string, password: string) => {
     password,
   });
 
-  const token = response.data.access;
-  return jwt_decode(token);
+  return response;
+};
+
+export const getUserInfoByUserName = async (username: string) => {
+  const response = await request('get', `api/v1/accounts/user/${username}`);
+  return response;
 };

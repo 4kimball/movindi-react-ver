@@ -1,8 +1,8 @@
 import { FC } from 'react';
-import { SubmitHandler, useForm } from 'react-hook-form';
+
+import { useForm } from 'react-hook-form';
 import { TextField, Button } from '@mui/material';
 
-import { login } from '../../../apis/authApi';
 const INPUT_OPTION = {
   username: {
     required: {
@@ -17,20 +17,16 @@ const INPUT_OPTION = {
     },
   },
 };
-const onSubmit: SubmitHandler<{
-  username: string;
-  password: string;
-}> = async (data) => {
-  const { username, password } = data;
-  const token = login(username, password);
-  console.log(token);
-};
-const LoginForm: FC = () => {
+
+const LoginForm: FC<{
+  onSubmit: (data: Object) => void;
+}> = ({ onSubmit }) => {
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm();
+
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
       <TextField

@@ -20,7 +20,7 @@ const Layout: FC = () => {
       sx={{
         width: '100vw',
         height: '100vh',
-        backgroundColor: '##1a1a1a',
+        backgroundColor: '#262626',
       }}
     >
       <Navbar />
