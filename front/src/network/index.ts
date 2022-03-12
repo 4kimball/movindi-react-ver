@@ -49,3 +49,11 @@ export const request = (
       return axios.get(BASE_URL + url, config);
   }
 };
+
+axios.interceptors.request.use((config) => {
+  const accessToken = sessionStorage.getItem('accessToken');
+  config.headers.common['Authorization'] = accessToken
+    ? `Bearer ${accessToken}`
+    : '';
+  return config;
+});

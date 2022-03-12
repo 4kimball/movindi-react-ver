@@ -19,7 +19,7 @@ const INPUT_OPTION = {
 };
 
 const LoginForm: FC<{
-  onSubmit: (data: Object) => void;
+  onSubmit: (data: User) => void;
 }> = ({ onSubmit }) => {
   const {
     register,

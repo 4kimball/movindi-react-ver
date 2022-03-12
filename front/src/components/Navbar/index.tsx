@@ -43,7 +43,9 @@ const Navbar: FC = () => {
     </Button>
   );
   const Menus = isLoggedIn ? (
-    MenusTitle.map((title) => <MenuButton>{title}</MenuButton>)
+    MenusTitle.map((title, index) => (
+      <MenuButton key={`${index}-${title}`}>{title}</MenuButton>
+    ))
   ) : (
     <MenuButton>Login</MenuButton>
   );
@@ -60,6 +62,7 @@ const Navbar: FC = () => {
         position: 'fixed',
         top: '0',
         margin: 0,
+        zIndex: 100,
       }}
     >
       <Box>

@@ -3,8 +3,10 @@ import { combineReducers } from 'redux';
 import { persistReducer } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
 import userSlice from './slices/userSlice';
+import moviesSlice from './slices/moviesSlice';
 const reducers = combineReducers({
   user: userSlice,
+  movie: moviesSlice,
 });
 
 const persistConfig = {
