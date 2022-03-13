@@ -2,14 +2,11 @@ FROM node:14-alpine as builder
 
 WORKDIR /app
 
-COPY ./front/package-lock.json .
-COPY ./front/package.json .
+COPY ./front ./
 
 RUN yarn install
 
-COPY ./front ./
-
-EXPOSE 3000
+EXPOSE 3030
 
 CMD ["cd", "./front"]
 CMD ["yarn", "dev"]
