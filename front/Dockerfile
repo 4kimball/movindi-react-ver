@@ -7,7 +7,7 @@ COPY ./front/package.json .
 
 RUN yarn install
 
-COPY ./ ./
+COPY ./front ./
 
 EXPOSE 3000
 
