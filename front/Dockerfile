@@ -2,7 +2,7 @@ FROM node:14-alpine as builder
 
 WORKDIR /front
 
-COPY ./package.json .
+COPY ./front/package.json .
 
 RUN yarn install
 
