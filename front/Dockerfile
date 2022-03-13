@@ -11,4 +11,5 @@ COPY ./ ./
 
 EXPOSE 3000
 
+CMD ["cd", "./front"]
 CMD ["yarn", "dev"]
