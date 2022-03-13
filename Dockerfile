@@ -6,7 +6,7 @@ COPY ./front ./
 
 RUN yarn install
 
-EXPOSE 3030
+EXPOSE 3000
 
 CMD ["cd", "./front"]
 CMD ["yarn", "dev"]
