@@ -2,6 +2,7 @@ FROM node:14-alpine as builder
 
 WORKDIR /front
 
+COPY ./front/package-lock.json .
 COPY ./front/package.json .
 
 RUN yarn install
